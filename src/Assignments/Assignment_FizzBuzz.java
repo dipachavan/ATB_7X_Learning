@@ -1,4 +1,4 @@
-package ex_20072024;
+package Assignments;
 
 public class Assignment_FizzBuzz {
     public static void main(String[] args) {

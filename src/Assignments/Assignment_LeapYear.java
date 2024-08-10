@@ -1,4 +1,4 @@
-package ex_20072024;
+package Assignments;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ex_21072024;
+package Assignments;
 
 public class Assignment_RightAngleTriangleStar {
 
