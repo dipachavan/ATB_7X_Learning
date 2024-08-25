@@ -1,0 +1,16 @@
+Collection Framework:In built functions are provided.
+
+                    Collection(I)                                     Map(I)                Iterator(I)
+    List(I)             Set(I)          Queue(I)                    HashMap(C)            ListIterator(I)
+    ArrayList(C)       HashSet(C)       ArrayQueue(C)               TreeMap(C)
+    LinkedList(C)      EnumSet(C)       PriorityQueue(C)            EnumMap(C)
+    Stack(C)           LinkedHash(C)    LinkedList(C)               LinkedHashMap(C)
+    Vector(C)          TreeSet(C)                                   EnumHashMap(C)
+
+
+We can add heterogeneous data.
+Size in not fixed.Size will be increased automatically.
+
+
+Vector:
+    vector is thread safe, synchronised.It will be time-consuming so slower.

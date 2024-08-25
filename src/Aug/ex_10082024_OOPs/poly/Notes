@@ -1,0 +1,34 @@
+Polymorphism: different forms
+It allows methods to perform different tasks based on the object that invokes them.
+Types:
+ 1.Compile Time|Static|Method OverLoading
+ 2.Runtime|Dynamic|Method Overriding
+
+Overloading is in same class where as overloading is in different class.
+
+
+@Override
+-When extended parent will be automatically inherited into child but child wants to create his own method with same the same name then JVM will be confused which method to call.
+So, to avoid this situation @Override annotation is used. It means that same name method is also there in parent.
+
+//Child ch= new Parent();      --> this is invalid because parent can not access children members.
+Here child can not be available before parents existence,so child can not be a reference variable to the parent.
+//d1.greet();       -->This method is owned by child.This method is not accessible with parent reference.Only overridden methods parent reference can access.
+
+Constructor and Inheritance:
+    Parent should have a default constructor then only child class can have the default constructor.
+    Otherwise you will get an error as there is no parameterless constructor in parent.
+    Also with dynamic dispatch, we can only access parents members not children members.
+
+Super keyword:
+Super keyword should be first line in constructor of child class if want to access parent class constructor.
+with super keyword you can access members of parent class but access modifier should not be private.
+if any member is private then you can not access it in child class.
+    Exception will be thrown as java: speed has private access in ex_10082024_OOPs.superKeyword.Vehicle
+If you have both DC and PC in parent class and then you want call both of them using super keyword then its not allowed as only one constructor call is allowed.
+    Only one explicit constructor call is allowed in constructor
+Calling a constructor in another constructor is called as constructor chaining.Only one super is allowed in constructor chaining.
+Both Super and this is not allowed in constructor chaining. Either super or this is allowed.
+
+Dynamic dispatch(Runtime):Parent Reference with child object
+e.g Parent pr= new Child();         here pr is a reference of Parent and its pointing to the object of Child

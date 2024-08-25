@@ -1,0 +1,31 @@
+Exceptions:
+    handled using
+    A.try catch block
+        1.try catch
+        2.try and multiple catch
+        3.try catch and finally
+    B.Throws
+
+Exception passing:
+    child->parent->grandparent-> UNTIL MAIN() IS NOT FOUND ----> this way exception is passed.
+
+Throws:
+   It can also be used to handle the exception.
+   It attach itself to the method signature rather than the vulnerable code.
+   can have multiple, comma(,) separated.
+   e.g.
+   public static void extracted() throws FileNotFoundException,NullPointerException,ArithmeticException
+
+Throws and try catch both are used to handle the exceptions.
+
+if want to save full function then go for throws.
+if want to save piece of code then go for try catch.
+
+
+public static void main(String[] args) throws Exception,FileNotFoundException
+// as we have used Exception then after this FileNotFoundException is useless so its greyed out
+
+
+Throw:
+       used to define custom exceptions.
+       If u dont throw the exception, JVM will throw that exception.

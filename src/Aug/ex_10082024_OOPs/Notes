@@ -1,0 +1,10 @@
+Encapsulation:Data Hiding,security,privacy
+You can not access any data member without a function. Those functions can only access the data members.
+getting and setting values can be controlled
+Encapsulation is hiding the data members using getters and setters.
+Here member is private in nature so no one can access it and can not modify the password.
+It will throw an error.
+You can only access username as its public in nature
+getter and setter is wrapping of a data, used to secure data members.
+getter--to fetch the value,secure this as well
+setter--to set/update the value,secure this as well based on the condition
