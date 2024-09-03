@@ -1,4 +1,4 @@
-package ex_10082024_OOPs.poly.methodOverloading;
+package Aug.methodOverloading;
 
 public class Lab_181 {
     //Polymorphism: different forms
@@ -9,7 +9,7 @@ public class Lab_181 {
          */
 
     public static void main(String[] args) {
-        ex_10082024_OOPs.poly.methodOverloading.MathOperations mathOperations=new MathOperations("Deepa",1001);
+        Aug.methodOverloading.MathOperations mathOperations=new MathOperations("Deepa",1001);
         mathOperations.getName();
         int result1=mathOperations.add(10,12);
         String result2=mathOperations.add("Hello",123);

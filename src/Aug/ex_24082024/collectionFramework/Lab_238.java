@@ -1,4 +1,4 @@
-package Aug.ex_18082024.collectionFramework;
+package Aug.ex_24082024.collectionFramework;
 
 import java.util.ArrayList;
 
@@ -12,7 +12,7 @@ public class Lab_238 {
         arrayList.add(student1);
         arrayList.add(student2);
         arrayList.add(student3);
-        //System.out.println(arrayList);      //[Aug.ex_18082024.collectionFramework.Student@5f184fc6, Aug.ex_18082024.collectionFramework.Student@3feba861, Aug.ex_18082024.collectionFramework.Student@5b480cf9]
+        //System.out.println(arrayList);      //[Aug.ex_24082024.collectionFramework.Student@5f184fc6, Aug.ex_24082024.collectionFramework.Student@3feba861, Aug.ex_24082024.collectionFramework.Student@5b480cf9]
         //After adding toString(),we will get below output.
         System.out.println(arrayList);         // [Student{id=101, name='Deepa'}, Student{id=102, name='Vilas'}, Student{id=103, name='Chavan'}]
     }

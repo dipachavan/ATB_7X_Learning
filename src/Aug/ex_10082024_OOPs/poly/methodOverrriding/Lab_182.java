@@ -1,4 +1,4 @@
-package ex_10082024_OOPs.poly.methodOverrriding;
+package Aug.poly.methodOverrriding;
 
 public class Lab_182 {
     //Method overriding|Runtime polymorphism
