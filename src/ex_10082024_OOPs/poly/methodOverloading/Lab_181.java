@@ -9,7 +9,7 @@ public class Lab_181 {
          */
 
     public static void main(String[] args) {
-        MathOperations mathOperations=new MathOperations("Deepa",1001);
+        ex_10082024_OOPs.poly.methodOverloading.MathOperations mathOperations=new MathOperations("Deepa",1001);
         mathOperations.getName();
         int result1=mathOperations.add(10,12);
         String result2=mathOperations.add("Hello",123);

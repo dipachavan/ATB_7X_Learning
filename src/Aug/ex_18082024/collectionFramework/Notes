@@ -11,6 +11,63 @@ Collection Framework:In built functions are provided.
 We can add heterogeneous data.
 Size in not fixed.Size will be increased automatically.
 
+Load Factor=> it will automatically increase the size.It depends on the OS,RAM(Multiple factors to consider what will be the load).
+AL->LF->1.5(Can be)
+
 
 Vector:
     vector is thread safe, synchronised.It will be time-consuming so slower.
+
+ArrayList:
+    Stored in continues memory.
+    Finding element is easy as indexing is used.
+    Adding or deleting is a heavy operations as we need to shift the elements.
+
+LinkedList:
+    Not in continues memory.
+    Finding element is difficult as indexing is not used.Have to traverse all the nodes.
+    Adding or deleting is a easy task.
+    1st ele is called as head and last is called as tail.
+
+Comparable (I):
+    To compare 2 objects and sort the attributes.
+    compareTo() method is used to do so which will sort based on attributes provided.
+    Disadvantage is we can sort only with one attribute. Either with id or with name.
+    returns int.
+
+Comparator (I):
+    To compare 2 objects and sort the attributes.
+    compare() method is used to do so which will sort based on attributes provided.
+    Advantage is we can sort with each attribute we have, with id and with name too.
+    We can write our own logic to sort the attributes of the objects.
+    returns int.
+SET:
+1)HashSet:
+    stores unique values, no duplicates are allowed.Last one will be considered.
+    Hashing mechanism is used, no insertion order is maintained.
+
+2)LinkedHashSet:
+    Order will be maintained.
+    stores unique values, no duplicates are allowed.Last one will be considered.
+
+3)TreeSet:
+    Automatically sorts, based on first letter.
+    stores unique values, no duplicates are allowed.
+    null is not allowed cause with null,sorting can not be done.
+
+Map:
+    Is an interface.
+    Key-value pairs.
+    can have null keys.As a key only one null is allowed.
+    duplicates are not allowed.
+    as a value multiple nulls are allowed.
+
+1)HashMap:
+    Values are randomly stored.
+2)LinkedHashMap:
+    Values are stored as per insertion order.
+3)TreeMap:
+    Values are stored in sorted order.
+
+HashTable(Legacy class, synchronised hence slow, not used):
+    null is not allowed.
